@@ -21,7 +21,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ]       // to give errors and preference code using red lines.
   },
   "browserslist": {
     "production": [
