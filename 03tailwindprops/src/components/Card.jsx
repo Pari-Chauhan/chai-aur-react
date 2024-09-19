@@ -1,5 +1,5 @@
 import React from 'react'
-
+//can be function Card(props) and use props.username, props.property 
 function Card({username, btnText="visit me"}) {
     console.log(username);
   return (
