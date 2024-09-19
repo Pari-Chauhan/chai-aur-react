@@ -18,7 +18,7 @@ function MyApp(){
 //         target: '_blank'
 //     },
 //     children: 'Click me to visit google'
-// }
+// } passing it in the render function won't work beacuse this was the objects whose attributes name we have set and React accept the object with certain attributes name only
 
 const anotherElement = (
     <a href="https://google.com" target='_blank'>Visit google</a>
