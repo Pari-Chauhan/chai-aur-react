@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
 import App from './App.jsx'
-
+// Created the custom react app by creating a render function which takes element and create react element every time and render using it
+// Came to our tradtional render function which takes function(returning object)
+// Tried to create the function in main itself ->Successded
+// Since the function too returning object, tried to create object and directly passing it -> denied object of diff formst but accepts the created React Object/Element
 function MyApp(){
     return (
         <div>
@@ -25,7 +27,7 @@ const anotherElement = (
 )
 
 
-// All the code of javascript comes outside the object/element which we are going to pass in the render
+// All the code of javascript comes outside the object/element(can come in function) which we are going to pass in the render
 // Only the evaluated output comes inside the element and that too in curly braces
 const anotherUser = "chai aur react"
 
