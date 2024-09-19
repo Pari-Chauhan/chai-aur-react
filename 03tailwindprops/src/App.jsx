@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './components/Card'
-
+//Created a whole new component - Card
 function App() {
   const [count, setCount] = useState(0)
   let myObj = {
