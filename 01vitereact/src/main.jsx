@@ -25,7 +25,8 @@ const anotherElement = (
 )
 
 
-
+// All the code of javascript comes outside the object/element which we are going to pass in the render
+// Only the evaluated output comes inside the element and that too in curly braces
 const anotherUser = "chai aur react"
 
 const reactElement = React.createElement(
